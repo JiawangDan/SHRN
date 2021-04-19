@@ -40,7 +40,7 @@ $ python test.py --model shrn \
 ```
 
 ### Training Models
-Here are our settings to train SHRN. Note: We use two GPU to utilize large batch size, but if OOM error arise, please reduce batch size.
+Here are our settings to train SHRN. If OOM error arise, please reduce batch size.
 ```shell
 # For SHRN
 $ python train.py --patch_size 64 \
