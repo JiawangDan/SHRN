@@ -27,7 +27,6 @@ We use DIV2K dataset for training and Set5, Set14, B100 and Urban100 dataset for
 ```shell
 $ cd datasets && python div2h5.py
 ```
-3. Other benchmark datasets can be downloaded in [Google Drive](https://drive.google.com/open?id=1cGHKR-E_B3L6gFIlxhWunum30q9DKZXT). Same as DIV2K, please put all the datasets in `dataset` directory.
 
 ### Test Pretrained Models
 We provide the pretrained models in `checkpoint` directory. To test SHRN on benchmark dataset:
@@ -58,9 +57,11 @@ $ python train.py --patch_size 64 \
 
 ### Citation
 ```
-@article{
+@inproceedings{dan2021scale,
   title={Scale adaptive and lightweight super-resolution with a selective hierarchical residual network},
-  author={Jiawang Dan, Zhaowei Qu, Xiaoru Wang, Fu Li, Jiahang Gu, Bing Ma},
+  author={Dan, Jiawang and Qu, Zhaowei and Wang, Xiaoru and Li, Fu and Gu, Jiahang and Ma, Bing},
+  booktitle={2021 the 5th International Conference on Innovation in Artificial Intelligence},
+  pages={8--14},
   year={2021}
 }
 ```
